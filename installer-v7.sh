@@ -14,10 +14,10 @@ chmod +x OneShot/oneshot.py
 cd OneShot
 git pull
 cd $HOME
-echo alias oneshot='"cd $HOME/OneShot && sudo python oneshot.py -i wlan0-K"' >> .bashrc
+echo alias oneshot='"cd $HOME/OneShot && sudo python oneshot.py -i wlan0 -K"' >> .bashrc
 cd /data/data/com.termux/files/usr/etc
 echo  >>motd
-echo To run OneShot: oneshot
+echo To run OneShot: oneshot >>motd
 
 printf "###############################################\n#  All done! Now you can run OneShot with\n#   sudo python OneShot/oneshot.py -i wlan0 -K\n#\n#  To update, run\n#   (cd OneShot && git pull)\n###############################################\n"
 
