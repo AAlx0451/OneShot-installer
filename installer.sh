@@ -18,24 +18,7 @@ echo Utilities:>>motd
 echo OneShot WPS Hack: oneshot>>motd
 
 
-echo Termux will restart, wait, type "oneshot" to start OneShot
+echo Restart Termux, and type "oneshot" to start OneShot
 echo To run in force mode: "oneshot -F"
 echo
 echo Code by AAlx
-sleep 5
-echo 15 seconds left
-sleep 5
-echo 10 seconds left
-sleep 5
-echo 5 seconds left
-sleep 1
-echo 4 seconds left
-sleep 1
-echo 3 seconds left
-sleep 1
-echo 2 seconds left
-sleep 1
-echo 1 second left
-sleep 1
-exit
-
