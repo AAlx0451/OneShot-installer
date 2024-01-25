@@ -10,4 +10,4 @@ Download and run installer.sh
 
 wGet installation
 
-pkg update && pkg install wget && wget https://github.com/AAlx0451/OneShot-installer/blob/main/installer.sh
+pkg update && pkg install wget && wget https://github.com/AAlx0451/OneShot-installer/blob/main/installer.sh && bash installer.sh
