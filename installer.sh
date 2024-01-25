@@ -15,7 +15,7 @@ echo alias oneshot='"cd $HOME/OneShot && sudo python oneshot.py -i wlan0 -K"' >>
 cd /data/data/com.termux/files/usr/etc
 echo  >>motd
 echo Utilities:>>motd
-echo WPS Hack (OneShot): oneshot>>motd
+echo WPS Hack '('OneShot')': oneshot>>motd
 
 
 echo Termux will restart, wait, type "oneshot" to start OneShot
