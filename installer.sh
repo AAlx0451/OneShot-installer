@@ -1,5 +1,4 @@
 #!/data/data/com.termux/files/usr/bin/bash
-git pull
 cd $HOME
 pkg update && pkg upgrade
 pkg install root-repo 
