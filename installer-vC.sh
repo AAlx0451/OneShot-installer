@@ -2,7 +2,7 @@
 #curl version for direct installation
 cd $HOME
 pkg upgrade
-pkg install root-repo 
+pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw -y
 
 termux-setup-storage
