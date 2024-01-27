@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 #curl version for direct installation
 cd $HOME
-pkg upgrade
+pkg upgrade -y
 pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw -y
 
