@@ -22,3 +22,4 @@ echo Restart Termux, and type "oneshot" to start OneShot
 echo To run in force mode: "oneshot -F"
 echo
 echo Code by AAlx
+bash
