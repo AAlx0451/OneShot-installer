@@ -6,8 +6,4 @@ pkg update && pkg upgrade && pkg install curl && curl https://raw.githubusercont
 
 Full installation
 
-Download and run installer.sh
-
-wGet installation
-
-pkg update && pkg install wget && wget https://github.com/AAlx0451/OneShot-installer/blob/main/installer.sh && bash installer.sh
+pkg install git && git clone https://github.com/AAlx0451/OneShot-installer && cd OneShot-installer && bash installer.sh
