@@ -18,8 +18,9 @@ echo Utilities:>>motd
 echo OneShot WPS Hack: oneshot>>motd
 
 
-echo Restart Termux, and type "oneshot" to start OneShot
+echo Type "oneshot" to start OneShot
 echo To run in force mode: "oneshot -F"
 echo
 echo Code by AAlx
 bash
+rm -rf $HOME/OneShot-installer
