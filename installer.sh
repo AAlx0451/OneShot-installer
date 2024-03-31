@@ -21,6 +21,7 @@ if [[ "$hello" == "y" ]]; then
   echo OneShot WPS Hack: oneshot>>motd
 else
   echo Ok, skip it
+fi
 
 echo Type "oneshot" to start OneShot
 echo To run in force mode: "oneshot -F"
