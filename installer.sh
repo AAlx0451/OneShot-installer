@@ -9,7 +9,7 @@ git clone --depth 1 https://github.com/chickendrop89/OneShot-Extended OneShot
 chmod +x OneShot/oneshot.py
 
 cd $HOME
-echo alias oneshot='"cd $HOME/OneShot && sudo python oneshot.py -i wlan0 -K -w"' >> .bashrc
+echo alias oneshot='"cd $HOME/OneShot && sudo python ose.py -i wlan0 -K -w"' >> .bashrc
 
 echo 'Do you want to edit "hello" (motd) message? It will add Utilities title to hello message y/n'
 read $hello
